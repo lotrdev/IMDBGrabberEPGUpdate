@@ -1,6 +1,11 @@
-﻿using System.Reflection;
+﻿using MediaPortal.Common.Utils;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
+
+// MediaPortal Compatibility Settings
+[assembly: CompatibleVersion("1.1.6.27644")]
+[assembly: UsesSubsystem("TVE")]
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
